@@ -39,9 +39,13 @@ while attempts != 0:
     elif guess > chosen_number:
         print("Too high.")
         attempts -= 1
+        if attempts != 0:
+            print("Guess again.")
     elif chosen_number > guess:
         print("Too low.")
         attempts -= 1
+        if attempts != 0:
+            print("Guess again.")
     if attempts == 0:
         print("You have run out of guesses. Refresh the terminal to play again.")
         print(f"The choosen number was {chosen_number}")

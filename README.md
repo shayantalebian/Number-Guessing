@@ -6,7 +6,7 @@ This the most simple project that every new programmer such as I would build.
 
 This project will run in terminal only(for now) and there is a simple logic, just guess the word which has been chosen from 1 to 100
 
-**keep in mind : the 1 and 100 are also counted**
+**keep in mind : the 1 and 100 are also counted.**
 
 ## More About this project
 
